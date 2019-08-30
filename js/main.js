@@ -34,13 +34,13 @@ function setBgAndGreet() {
         hour = today.getHours();
 
     if(hour < 12) {
-        document.body.style.background = "url('../img/morning.jpg') center center";
+        document.body.style.background = "url(img/morning.jpg) center center";
         greeting.textContent = `Good Morning`;
     } else if(hour < 18) {
-        document.body.style.background = "url('../img/afternoon.jpg') center center";
+        document.body.style.background = "url(img/afternoon.jpg) center center";
         greeting.textContent = `Good Afternoon`;
     } else {
-        document.body.style.background = "url('../img/night.jpg') center center";
+        document.body.style.background = "url(img/night.jpg) center center";
         greeting.textContent = `Good Night`;
         document.body.style.color = '#fff';
     }
